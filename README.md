@@ -1,2 +1,2 @@
 # save-server
-Saves incoming POST request as files
+Very basic server for saving incoming POST request bodies as files.
