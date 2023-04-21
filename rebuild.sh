@@ -8,6 +8,7 @@ docker build -f Dockerfile . -t ${IMAGE_NAME}
 
 LISTEN_PORT=8000
 HOST_PORT=8888
+# this folder has to be created first
 UPLOADED_FILES_DIR=/data/uploaded-files
 
 docker run -d -p $HOST_PORT:$LISTEN_PORT \
